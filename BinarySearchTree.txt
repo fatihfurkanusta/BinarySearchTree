@@ -1,0 +1,92 @@
+Binary Search Tree Projesi:
+
+[7,5,1,8,3,6,0,9,4,2] dizisinin Binary Search Tree aşamalarını yazınız.
+------------------------------------------------------------------------------------
+Sonuç:
+
+1. Root 5 rakamını seçip en başa alıyoruz.
+
+2. 7, 5'in sağında yer alır.
+
+     			    5
+      			\
+       			 7
+
+3. 1, 5'in solunda yer alır.
+
+				 5
+    				/ \
+   			    1   7
+
+4. 8'5in ve 7'nin sağında yer alır.
+
+				  5
+    				 / \
+    				1   7
+        			     \
+         				 8
+
+5. 3,5'in solunda, 1'in sağında yer alır.
+
+				  5
+     				 / \
+    				1   7
+    				 \   \
+     			       3   8
+
+6. 6, 5'in sağında, 7'nin solunda yer alır.
+
+				  5
+      			 / \
+     			      /  \
+                     /    \
+   			    1       7
+                     \     / \
+                      3   6   8
+
+7. 0,5'in ve 1'in solunda yer alır.
+
+			     5
+       	         / \
+                   /   \
+                  /     \
+                 1       7
+                / \     / \
+               0   3   6   8
+
+8. 9; 5, 7 ve 8'in sağında yer alır.
+
+                     5
+       	         / \
+                   /   \
+                  /     \
+                 1       7
+                / \     / \
+               0   3   6   8
+					 \
+					  9
+
+9. 4, 5'in solunda, 1'in ve 3'ün sağında yer alır.
+
+				5
+       	         / \
+                   /   \
+                  /     \
+                 1       7
+                / \     / \
+               0   3   6   8
+			    \	      \
+				4	  9
+
+10. 2; 5'in solunda, 1'in sağında ve 3'ün solunda yer alır.
+
+				5
+       	         / \
+                   /   \
+                  /     \
+                 1       7
+                / \     / \
+               0   3   6   8
+			  / \	      \
+			 2	4	  9
+
